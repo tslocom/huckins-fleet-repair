@@ -40,7 +40,7 @@ const ContactPage = () => {
                 <div className="pt-2">
                   <div className="inline-flex items-center gap-2 bg-surface-container-high px-4 py-2 border border-outline-variant">
                     <span className="material-symbols-outlined text-primary">verified</span>
-                    <span className="text-[10px] font-black uppercase">Master Certified Technician</span>
+                    <span className="text-[10px] font-black uppercase">Certified Technician</span>
                   </div>
                 </div>
               </div>
@@ -85,15 +85,15 @@ const ContactPage = () => {
         <aside className="lg:col-span-5">
           <div className="bg-surface-container-high p-10 border border-outline-variant sticky top-24 hard-shadow">
             <div className="mb-8">
-              <h2 className="text-2xl font-black text-on-surface uppercase mb-2">Service Request</h2>
-              <p className="text-[10px] font-black text-primary uppercase">Fast Dispatch Response</p>
+              <h2 className="text-2xl font-black text-on-surface uppercase mb-2">Fleet Contract Request</h2>
+              <p className="text-[10px] font-black text-primary uppercase">Send us your contact information and a brief description of your fleet size and needs. We will contact you and create a fleet agreement that meets your needs.</p>
             </div>
 
             {submitted ? (
               <div className="bg-primary-container/20 p-8 text-center border-2 border-primary-container">
                 <span className="material-symbols-outlined text-5xl text-primary mb-4">check_circle</span>
                 <h3 className="text-xl font-black uppercase mb-2">Request Sent</h3>
-                <p className="text-sm">Dispatch has been notified. We will contact you immediately.</p>
+                <p className="text-sm">Request recieved. We will contact you soon.</p>
                 <button
                   onClick={() => setSubmitted(false)}
                   className="mt-6 text-xs font-black uppercase underline"
@@ -141,7 +141,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <label className="text-[10px] font-black uppercase text-on-surface-variant mb-1 block">
-                      Problem Description
+                      Fleet Details
                     </label>
                     <textarea
                       className="w-full bg-surface-container-lowest border-b-2 border-outline-variant p-3 text-on-surface transition-colors resize-none"
@@ -157,9 +157,6 @@ const ContactPage = () => {
                 >
                   Submit Dispatch Request
                 </button>
-                <p className="text-[8px] text-on-surface-variant uppercase text-center tracking-widest opacity-60">
-                  Immediate emergency dispatch available 24/7
-                </p>
               </form>
             )}
           </div>

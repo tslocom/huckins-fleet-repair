@@ -86,9 +86,6 @@ const RatesPage = () => (
 
         {/* Heavy Duty */}
         <div className="bg-surface-container-high border-2 border-primary-container p-10 relative overflow-hidden group flex flex-col justify-between">
-          <div className="absolute top-0 right-0 bg-primary-container text-on-primary-container px-4 py-1 font-black text-xs uppercase">
-            Most Requested
-          </div>
           <div className="flex justify-between items-start mb-10">
             <div>
               <h2 className="text-2xl font-black uppercase mb-2">Heavy Duty</h2>

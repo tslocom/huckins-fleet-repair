@@ -4,7 +4,7 @@ const services = [
   { id: 1, title: 'On-Site Engine Repair', icon: 'engineering', desc: 'Complete diagnostics and major overhauls for Class 7 & 8 trucks. Fuel systems, turbochargers, and aftertreatment.', priority: true },
   { id: 2, title: 'DOT Inspections', icon: 'fact_check', desc: 'Federally mandated safety inspections to keep your fleet compliant and your drivers safe.', priority: true },
   { id: 3, title: 'Brake & Air Systems', icon: 'settings_input_component', desc: 'Full service for S-cam, disc, and hydraulic systems. Air dryer service and leak detection.' },
-  { id: 4, title: 'Hydraulic Systems', icon: 'fluid_balance', desc: 'Mobile hose crimping and cylinder resealing for wet kits, garbage trucks, and heavy loaders.' },
+  { id: 4, title: 'Hydraulic Systems', icon: 'fluid_balance', desc: 'Cylinder resealing for wet kits, garbage trucks, and heavy loaders.' },
   { id: 5, title: 'OEM Diagnostics', icon: 'monitor_heart', desc: 'Fault finding using latest software for Cummins, Detroit, Paccar, and Volvo.' },
   { id: 6, title: 'PM Programs', icon: 'verified', desc: 'Scheduled preventative maintenance tailored to your duty cycle, reducing breakdowns by 35%.' },
 ];
